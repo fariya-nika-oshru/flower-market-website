@@ -1,0 +1,79 @@
+/* ----shared items */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.flex{
+    display: flex;
+}
+.bold{
+    font-weight: 600px;
+}
+.bolder{
+    font-weight: 900px;
+}
+.text-orng{
+    color: #E95A08;
+}
+.text-gray{
+    color: #8987A1;
+}
+.text-blk{
+    color: black
+}
+
+.heading{
+    font-weight: 900;
+    font-size: 4rem;
+
+}
+
+
+
+
+
+/* ----header-nav */
+
+.navbar, .banner{
+  max-width : 1140px;
+  margin: 0 auto;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    gap: 4em;
+}
+.nav-items{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+}
+
+
+
+/* ----header-banner */
+.banner{
+    margin-top: 100px ;
+}
