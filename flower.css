@@ -26,10 +26,10 @@
     display: flex;
 }
 .bold{
-    font-weight: 600px;
+    font-weight: 600;
 }
 .bolder{
-    font-weight: 900px;
+    font-weight: 900;
 }
 .text-orng{
     color: #E95A08;
@@ -55,7 +55,7 @@
 
 .navbar, .banner{
   max-width : 1140px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 .navbar{
     justify-content: space-between;
@@ -70,10 +70,58 @@
 .nav-link{
     text-decoration: none;
 }
+.cart{
+    width: 27px;
+    margin-top: -5.5px;
+}
+.cart-container{
+    display: flex;
+    justify-items: center;
+    gap: 5px;
+}
 
 
 
 /* ----header-banner */
 .banner{
-    margin-top: 100px ;
+    margin-top: 170px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----header-banner */
+@media screen and (max-width: 576px){
+
+    #home, #shop, #contact{
+        display: none;
+    }
+    .logo{
+        width: 20%;
+    }
+    .navbar{
+        margin: 15px 30px;
+    }
+    .banner{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        margin: 30px 0;
+    }
+    .heading{
+        font-size: 2rem;
+    } 
+    .banner img{
+        width: 105%;
+    }
+    .banner div{
+        padding: 15px;
+    }
 }
